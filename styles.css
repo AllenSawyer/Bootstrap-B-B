@@ -1,0 +1,49 @@
+body {
+    background-color: lightseagreen;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.carousel {
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    max-height: 500px;
+    min-height: 500px;
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    background-color: #2b3035;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+iframe {
+    /* max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-top: 20px; */
+
+    position: absolute;
+    right: 20px;
+}
+
+main {
+    margin-right: 20px;
+}
+
+form{
+    text-align: center;
+}
